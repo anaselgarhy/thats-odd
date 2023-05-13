@@ -6,16 +6,17 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+lazy_static = "1.4.0"
 
 [features]
 u8 = []
+u16 = []
 u32 = []
 u64 = []
 u128 = []
-usize = []
 i8 = []
+i16 = []
 i32 = []
 i64 = []
 i128 = []
-isize = []
 default = ["u32"]
