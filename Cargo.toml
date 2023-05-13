@@ -2,8 +2,28 @@
 name = "thats-odd"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Anas Elgarhy <anas.elgarhy.dev@gmail.com>"]
+description = ""
+license = "MIT"
+repository = "https://github.com/anas-elgarhy/thats-odd"
+readme = "README.md"
+keywords = ["odd", "even", "number", "is_odd", "is_even"]
+categories = ["algorithms", "math"]
+documentation = "https://docs.rs/thats-odd"
+homepage = "https://github.com/anas-elgarhy/thats-odd"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "Cargo.lock",
+    "README.md",
+    "LICENSE",
+]
+exclude = [
+    ".gitignore",
+    ".gitattributes",
+    ".github",
+    "examples",
+]
 
 [dependencies]
 lazy_static = "1.4.0"
